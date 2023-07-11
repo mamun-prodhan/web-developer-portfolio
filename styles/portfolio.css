@@ -80,12 +80,17 @@ nav a{
     margin-bottom: 50px;
 }
 /* main section sytles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .about{
-    padding: 130px 150px;
-    margin: 130px 230px;
+    padding: 130px;
+    margin: 130px 0;
     border-radius: 10px;
     background-color: #FFF8F3;
-    text-align: center;
 }
 .section-heading{
     text-align: center;
@@ -98,4 +103,11 @@ nav a{
     font-size: 18px;
     font-weight: 400;
     color: #757575;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
