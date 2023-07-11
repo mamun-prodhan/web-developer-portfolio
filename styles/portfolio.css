@@ -194,7 +194,24 @@ main section{
 /* footer style */
 footer{
     display: flex;
+    gap: 100px;
     padding: 130px 230px;
     margin-top: 100px;
     background-color: #FFF8F3;
+}
+.footer-column{
+    width: 50%;
+}
+.section-title, .section-description{
+    text-align: start;
+}
+.contact input[type="text"], .contact input[type="email"] , textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5;
+    background-color: #FFFFFF;
+    border: none;
+    width: 100%;
 }
